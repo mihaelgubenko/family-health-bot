@@ -67,8 +67,8 @@ git push -u origin main
 
 ```bash
 # ОБЯЗАТЕЛЬНЫЕ:
-TELEGRAM_BOT_TOKEN = 8477627411:AAE7jbPfXJfgK7hKy_cZfY1UZ3xGVmoSZM0
-TELEGRAM_ADMIN_ID = 6469030723
+TELEGRAM_BOT_TOKEN = ВАШ_НОВЫЙ_ТОКЕН_ОТ_BOTFATHER
+TELEGRAM_ADMIN_ID = ВАШ_TELEGRAM_ID
 NODE_ENV = production
 
 # ОПЦИОНАЛЬНЫЕ:
