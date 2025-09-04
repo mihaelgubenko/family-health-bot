@@ -1,0 +1,38 @@
+{
+  "name": "family-health-center-bot",
+  "version": "1.0.0",
+  "description": "Чат-бот для центра семейного здоровья с интеграцией телефонной связи",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.production.js",
+    "dev": "node server.js",
+    "local": "nodemon server.js",
+    "build": "echo 'Build completed'",
+    "test": "echo 'Tests not configured'"
+  },
+  "keywords": [
+    "chatbot",
+    "health",
+    "family",
+    "nutrition",
+    "osteopathy",
+    "massage",
+    "acupuncture",
+    "physiotherapy",
+    "bioscan"
+  ],
+  "author": "Family Health Center",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
